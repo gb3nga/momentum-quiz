@@ -217,7 +217,7 @@ function App() {
   };
 
   const handleShare = () => {
-  const text = `I just completed the Momentum quiz by @toluszn and I scored ${score}/${quizData.length}!\nTry yours now 👉 https://momentumquiz.netlify.app/`;
+  const text = `I just completed the Momentum quiz by @toluszn and I scored ${score}/${quizData.length}!\nTry yours now 👉 https://momentum-quiz.netlify.app/`;
   const url = `https://x.com/intent/tweet?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank");
 };
